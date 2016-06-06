@@ -3,6 +3,7 @@ export default {
 
   initialize: function(container) {
     $(document).ready(function() {
+      console.log("Hello");
       var source   = $("#notification-menu-item").html();
       var template = Handlebars.compile(source);
       var notification_url = "";
